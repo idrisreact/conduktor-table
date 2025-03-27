@@ -29,7 +29,7 @@ export const DataTable: React.FC<DataTableProps> = ({
         {displayData.length > 0 ? (
           displayData.map((person) => (
             <TableRow
-              key={person.id}
+              key={person.email}
               person={person}
               onRowClick={onRowClick}
             />
